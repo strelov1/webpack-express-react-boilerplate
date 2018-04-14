@@ -19,3 +19,9 @@ make watch
 make build
 make run
 ```
+
+### Run Test
+
+```sh
+make test
+```
