@@ -11,5 +11,7 @@ export const middDev = webpackDevMidd(compiler, {
 });
 
 export const middHot = webpackHotMidd(compiler, {
-  log: console.log, path: '/__webpack_hmr', heartbeat: 10 * 1000,
+  log: console.log,
+  path: '/__webpack_hmr',
+  heartbeat: 10 * 1000,
 });

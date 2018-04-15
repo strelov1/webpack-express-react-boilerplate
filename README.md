@@ -1,5 +1,11 @@
 # webpack-express-react-boilerplate
 
+[![Code Climate](https://codeclimate.com/github//strelov1/webpack-express-react-boilerplate/badges/gpa.svg)](https://codeclimate.com/github//strelov1/webpack-express-react-boilerplate)
+
+[![Issue Count](https://codeclimate.com/github/strelov1/webpack-express-react-boilerplate/badges/issue_count.svg)](https://codeclimate.com/github//strelov1/webpack-express-react-boilerplate)
+
+[![Build Status](https://travis-ci.org//strelov1/webpack-express-react-boilerplate.svg?branch=master)](https://travis-ci.org/strelov1/webpack-express-react-boilerplate)
+
 ## Setup
 
 ```sh
