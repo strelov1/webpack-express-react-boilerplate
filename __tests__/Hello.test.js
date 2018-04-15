@@ -1,8 +1,8 @@
 import React from 'react';
-import Hello from '../client/Hello';
 import renderer from 'react-test-renderer';
+import Hello from '../client/Hello';
 
 it('renders correctly', () => {
-    const hello = renderer.create(<Hello/>);
-    expect(hello.toJSON()).toMatchSnapshot();
+  const hello = renderer.create(<Hello/>);
+  expect(hello.toJSON()).toMatchSnapshot();
 });

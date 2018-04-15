@@ -1,5 +1,4 @@
-import webpack from 'webpack'
-import path from 'path'
+import path from 'path';
 
 export default {
   devtool: 'inline-source-map',
@@ -10,11 +9,11 @@ export default {
   output: {
     path: path.resolve(__dirname, 'public'),
     publicPath: '/',
-    filename: 'bundle.js'
+    filename: 'bundle.js',
   },
   module: {
     loaders: [
-      { test: /\.js$/, exclude: /node_modules/, loaders: ['babel-loader'] }
-    ]
+      { test: /\.js$/, exclude: /node_modules/, loaders: ['babel-loader'] },
+    ],
   },
-}
+};

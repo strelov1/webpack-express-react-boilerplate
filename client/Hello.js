@@ -1,12 +1,16 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 
 export default class Hello extends React.Component {
-    render() {
-        return(
-            <div>
-                <h1>Hello from React!</h1>
-            </div>
-        )
-    }
+  constructor(params) {
+    super(params);
+    this.state = { name: 'React' };
+  }
+
+  render() {
+    return (
+      <div>
+        <h1>Hello from {this.state.name}!</h1>
+      </div>
+    );
+  }
 }
